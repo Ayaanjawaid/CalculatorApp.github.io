@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator App</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="utils.css">
+</head>
+
+<body>
+    <h1 class="text-center"><span id="element"></span></h1>
+    <div class="container flex flex-col items-center mx-auto">
+        <div class="row">
+            <input class="input" type="text">
+        </div>
+        <div class="row">
+            <button class="button bg-orange font-weight">AC</button>
+            <button class="button bg-orange font-weight">-</button>
+            <button class="button bg-orange font-weight">x^2</button>
+            <button class="button bg-orange font-weight">x^3</button>
+        </div>
+        <div class="row">
+            <button class="button bg-black font-weight">7</button>
+            <button class="button bg-black font-weight">8</button>
+            <button class="button bg-black font-weight">9</button>
+            <button class="button bg-orange font-weight">*</button>
+        </div>
+        <div class="row">
+            <button class="button bg-black font-weight">4</button>
+            <button class="button bg-black font-weight">5</button>
+            <button class="button bg-black font-weight">6</button>
+            <button class="button bg-orange font-weight">/</button>
+        </div>
+        <div class="row">
+            <button class="button bg-black font-weight">3</button>
+            <button class="button bg-black font-weight">2</button>
+            <button class="button bg-black font-weight">1</button>
+            <button class="button bg-orange font-weight">+</button>
+        </div>
+        <div class="row">
+            <button class="button bg-black font-weight">0</button>
+            <button class="button bg-black font-weight">.</button>
+            <button class="button bg-black font-weight">=</button>
+            <button class="button bg-orange font-weight">%</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <script>
+        var typed = new Typed('#element', {
+            strings: ['WELCOME TO  MY CALCULATOR APPLICATION'],
+            typeSpeed: 60,
+        });
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,36 @@
+.text-center {
+    text-align: center;
+}
+
+.bg-orange {
+    background-color: rgb(231, 190, 12);
+    font-size: 1rem;
+}
+
+.bg-black {
+    background-color: black;
+    color: aliceblue;
+    border: 2px solid rgb(255, 253, 246);
+    font-size: 1rem;
+}
+
+
+.font-weight {
+    font-weight: bolder;
+}
+
+.mx-auto {
+    margin: auto;
+}
+
+.flex {
+    display: flex;
+}
+
+.flex-col {
+    flex-direction: column;
+}
+
+.items-center {
+    align-items: center;
+}
